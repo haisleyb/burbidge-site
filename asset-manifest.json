@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/burbidge-site/static/css/main.57606767.chunk.css",
-    "main.js": "/burbidge-site/static/js/main.763ed2e5.chunk.js",
-    "main.js.map": "/burbidge-site/static/js/main.763ed2e5.chunk.js.map",
+    "main.css": "/burbidge-site/static/css/main.71e24ddd.chunk.css",
+    "main.js": "/burbidge-site/static/js/main.2cc7b43d.chunk.js",
+    "main.js.map": "/burbidge-site/static/js/main.2cc7b43d.chunk.js.map",
     "runtime-main.js": "/burbidge-site/static/js/runtime-main.4bcd4063.js",
     "runtime-main.js.map": "/burbidge-site/static/js/runtime-main.4bcd4063.js.map",
-    "static/js/2.cedc81dd.chunk.js": "/burbidge-site/static/js/2.cedc81dd.chunk.js",
-    "static/js/2.cedc81dd.chunk.js.map": "/burbidge-site/static/js/2.cedc81dd.chunk.js.map",
+    "static/js/2.a58ac49a.chunk.js": "/burbidge-site/static/js/2.a58ac49a.chunk.js",
+    "static/js/2.a58ac49a.chunk.js.map": "/burbidge-site/static/js/2.a58ac49a.chunk.js.map",
     "index.html": "/burbidge-site/index.html",
-    "static/css/main.57606767.chunk.css.map": "/burbidge-site/static/css/main.57606767.chunk.css.map",
-    "static/js/2.cedc81dd.chunk.js.LICENSE.txt": "/burbidge-site/static/js/2.cedc81dd.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/burbidge-site/static/media/new-year-snacks.afbdb10f.jpg"
+    "static/css/main.71e24ddd.chunk.css.map": "/burbidge-site/static/css/main.71e24ddd.chunk.css.map",
+    "static/js/2.a58ac49a.chunk.js.LICENSE.txt": "/burbidge-site/static/js/2.a58ac49a.chunk.js.LICENSE.txt",
+    "static/media/beef-noodle.60c8e7b6.jpg": "/burbidge-site/static/media/beef-noodle.60c8e7b6.jpg",
+    "static/media/App.css": "/burbidge-site/static/media/new-year-snacks.afbdb10f.jpg",
+    "static/media/braised-pork.b070732d.jpg": "/burbidge-site/static/media/braised-pork.b070732d.jpg",
+    "static/media/pepper-bun.9a2e2d03.jpg": "/burbidge-site/static/media/pepper-bun.9a2e2d03.jpg",
+    "static/media/soup-dumpling.c0ee7201.jpg": "/burbidge-site/static/media/soup-dumpling.c0ee7201.jpg",
+    "static/media/street-food.a1b6cb92.jpg": "/burbidge-site/static/media/street-food.a1b6cb92.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4bcd4063.js",
-    "static/js/2.cedc81dd.chunk.js",
-    "static/css/main.57606767.chunk.css",
-    "static/js/main.763ed2e5.chunk.js"
+    "static/js/2.a58ac49a.chunk.js",
+    "static/css/main.71e24ddd.chunk.css",
+    "static/js/main.2cc7b43d.chunk.js"
   ]
 }
