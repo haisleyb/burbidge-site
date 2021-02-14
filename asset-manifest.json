@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/burbidge-site/static/css/main.9364283c.chunk.css",
-    "main.js": "/burbidge-site/static/js/main.cd10dff6.chunk.js",
-    "main.js.map": "/burbidge-site/static/js/main.cd10dff6.chunk.js.map",
+    "main.js": "/burbidge-site/static/js/main.8f6d717c.chunk.js",
+    "main.js.map": "/burbidge-site/static/js/main.8f6d717c.chunk.js.map",
     "runtime-main.js": "/burbidge-site/static/js/runtime-main.4bcd4063.js",
     "runtime-main.js.map": "/burbidge-site/static/js/runtime-main.4bcd4063.js.map",
     "static/js/2.a58ac49a.chunk.js": "/burbidge-site/static/js/2.a58ac49a.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.4bcd4063.js",
     "static/js/2.a58ac49a.chunk.js",
     "static/css/main.9364283c.chunk.css",
-    "static/js/main.cd10dff6.chunk.js"
+    "static/js/main.8f6d717c.chunk.js"
   ]
 }
