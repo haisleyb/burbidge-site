@@ -10,7 +10,7 @@ import Weddings from './components/Pages/Weddings/Weddings';
 export const AppRouter: React.FunctionComponent = () => {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Header/>
                 <main>
                     <Switch>
