@@ -1,11 +1,11 @@
 import React from 'react';
-import Image from './img/bento-box.jpg'
 import './App.css';
+import Home from './components/Pages/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-     <img src={Image} alt="bento"/>
+    <div>
+     <Home/>
     </div>
   );
 }
