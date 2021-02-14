@@ -16,12 +16,15 @@ const Header: React.FunctionComponent = () => {
           setButton(true);
       }
   }
-window.addEventListener('resize', showButton);
+  React.useEffect(() => {
+    showButton();
+  }, []);
+  window.addEventListener('resize', showButton);
 
   return (
     <nav className="navbar">
         <div className="navbar-container">
-            <Link to="/" className="family-logo" onClick={closeMobileMenu}>
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 Burbidge
             </Link>
             <div className="menu-icon" onClick={handleClick}>

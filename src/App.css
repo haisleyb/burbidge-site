@@ -17,6 +17,15 @@
   font-size: 3rem;
 }
 
+.home {
+  background-image: url('./img/traditional-japanese.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 .vacations {
   background-image: url('./img/disney-2019.jpg');
   background-position: center;

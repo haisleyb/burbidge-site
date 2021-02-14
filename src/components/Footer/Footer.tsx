@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
-import { Button } from '../Button/Button';
 
 
 const Footer: FunctionComponent = () => {
