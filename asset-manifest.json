@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/burbidge-site/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/burbidge-site/static/js/main.ee114ef5.chunk.js",
+    "main.js.map": "/burbidge-site/static/js/main.ee114ef5.chunk.js.map",
+    "runtime-main.js": "/burbidge-site/static/js/runtime-main.3980f158.js",
+    "runtime-main.js.map": "/burbidge-site/static/js/runtime-main.3980f158.js.map",
+    "static/js/2.db39837d.chunk.js": "/burbidge-site/static/js/2.db39837d.chunk.js",
+    "static/js/2.db39837d.chunk.js.map": "/burbidge-site/static/js/2.db39837d.chunk.js.map",
+    "static/js/3.4a34e60f.chunk.js": "/burbidge-site/static/js/3.4a34e60f.chunk.js",
+    "static/js/3.4a34e60f.chunk.js.map": "/burbidge-site/static/js/3.4a34e60f.chunk.js.map",
+    "index.html": "/burbidge-site/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/burbidge-site/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.db39837d.chunk.js.LICENSE.txt": "/burbidge-site/static/js/2.db39837d.chunk.js.LICENSE.txt",
+    "static/media/bento-box.ca73eeb6.jpg": "/burbidge-site/static/media/bento-box.ca73eeb6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3980f158.js",
+    "static/js/2.db39837d.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ee114ef5.chunk.js"
+  ]
+}
