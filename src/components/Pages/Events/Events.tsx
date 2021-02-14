@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 const Events: FunctionComponent = () => {
   return (
-    <div className="events-component">
+    <div className="events">
       <h2>Events</h2>
     </div>
   );

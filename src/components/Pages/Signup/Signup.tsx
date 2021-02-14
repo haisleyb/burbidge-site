@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 const Signup: FunctionComponent = () => {
   return (
-    <div className="signup-component">
+    <div className="sign-up">
       <h2>Signup</h2>
     </div>
   );
