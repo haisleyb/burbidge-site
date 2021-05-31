@@ -1,7 +1,9 @@
 import React, { FunctionComponent } from 'react';
+import { Carousel } from 'react-responsive-carousel';
 import Cards from '../../Cards/Cards';
 import Footer from '../../Footer/Footer';
-import SimpleImageSlider from "react-simple-image-slider";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./home.css";
 
 const Home: FunctionComponent = () => {
   // const images = [
@@ -16,25 +18,30 @@ const Home: FunctionComponent = () => {
     { url: "http://cdn.cnn.com/cnnnext/dam/assets/150520113507-best-taiwanese-food--1braised-pork-lurou-rice.jpg" },
     { url: "https://okinawa.stripes.com/sites/default/files/styles/community_site_carousel_750x500/public/article-images/taiwan-dumplings_0.jpg?itok=mPPEf5PK" },
     { url: "http://cdn.cnn.com/cnnnext/dam/assets/150520113853-best-taiwanese-food--2beef-noodle.jpg" },
-    { url: "https://www.travel.taipei/Content/images/content/must-visit/top-food-02.jpg" },
-    { url: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/s5uioaxzilpgwpla_1581675806.jpeg?tr=w-758,h-433" },
   ];
+
+  const renderImage = (url: string) => {
+    return (
+      <div>
+        <img src={url}/>
+      </div>
+    );
+  }
   return (
     <div>
-      <div/>
-      {/* https://www.npmjs.com/package/react-simple-image-slider */}
-        <SimpleImageSlider
-          width={896}
-          height={504}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-          style={{ display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',}}
-        />
-        <Cards />
-        <Footer />
+      <div>
+        <Carousel
+          autoPlay
+          dynamicHeight
+          infiniteLoop
+          swipeable
+          width="80%"
+        >
+          {images.map(img => renderImage(img.url))}
+        </Carousel>
+      </div>
+      <Cards />
+      <Footer />
     </div>
   );
 }
