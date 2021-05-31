@@ -8,20 +8,20 @@ import Vacations from './components/Pages/Vacations/Vacations';
 import Weddings from './components/Pages/Weddings/Weddings';
 
 export const AppRouter: React.FunctionComponent = () => {
-    return (
-        <div>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
-                <Header/>
-                <main>
-                    <Switch>
-                        <Route exact={true} path="/" component={App}/>
-                        <Route path="/events" component={Events}/>
-                        <Route path="/vacations" component={Vacations}/>
-                        <Route path="/weddings" component={Weddings}/>
-                        <Route path="/signup" component={Signup}/>
-                    </Switch>
-                </main>
-            </BrowserRouter>
-        </div>
-    )
+  return (
+      <div>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Header/>
+          <main>
+            <Switch>
+              <Route exact={true} path="/" component={App}/>
+              <Route path="/events" component={Events}/>
+              <Route path="/vacations" component={Vacations}/>
+              <Route path="/weddings" component={Weddings}/>
+              <Route path="/signup" component={Signup}/>
+            </Switch>
+          </main>
+        </BrowserRouter>
+      </div>
+  )
 }

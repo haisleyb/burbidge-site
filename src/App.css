@@ -17,13 +17,8 @@
   font-size: 3rem;
 }
 
-.home {
-  background-image: url('./img/traditional-japanese.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.slider {
+  margin-bottom: 40rem;
 }
 
 .vacations {
