@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Cards from '../../Cards/Cards';
-import Footer from '../../Footer/Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./home.css";
 
