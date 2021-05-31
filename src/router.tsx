@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './App'
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Events from './components/Pages/Events/Events';
 import Signup from './components/Pages/Signup/Signup';
@@ -21,6 +22,7 @@ export const AppRouter: React.FunctionComponent = () => {
               <Route path="/signup" component={Signup}/>
             </Switch>
           </main>
+         <Footer />
         </BrowserRouter>
       </div>
   )

@@ -41,7 +41,6 @@ const Home: FunctionComponent = () => {
         </Carousel>
       </div>
       <Cards />
-      <Footer />
     </div>
   );
 }

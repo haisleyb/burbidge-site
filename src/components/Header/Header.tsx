@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, RouteComponentProps, useHistory, withRouter } from 'react-router-dom';
 import { Button } from '../Button/Button';
 import './header.css';
 
-const Header: React.FunctionComponent = () => {
+const Header: React.FunctionComponent = (props) => {
+  let history = useHistory();
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -51,10 +52,17 @@ const Header: React.FunctionComponent = () => {
                       Weddings
                   </Link>
               </li>
+              { !button &&
+                <li className="nav-item">
+                    <Link to="/signup" className="nav-links" onClick={closeMobileMenu}>
+                        Register for Raffle
+                    </Link>
+                </li>
+              }
           </ul>
           { button &&
-              <Button buttonSize="btn--medium" buttonStyle="btn--outline">
-                  REGISTER FOR RAFFLE
+              <Button buttonSize="btn--medium" buttonStyle="btn--outline" onClick={() => history.push('/signup')}>
+                  Register
               </Button>
           }
       </div>
@@ -62,4 +70,4 @@ const Header: React.FunctionComponent = () => {
   );
 }
 
-export default (Header);
+export default withRouter(Header);
